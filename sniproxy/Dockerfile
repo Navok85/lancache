@@ -1,12 +1,12 @@
 #################################################
 #
-# Image erzeugen mit:
+# Create docker image:
 # $ docker build -t lancache/sniproxy .
 #
-# Config sniproxy.conf nach /srv/sniproxy kopieren
+# Copy sniproxy.conf to /srv/sniproxy
 # $ mkdir -p /pool1/sniproxy
 #
-# Container starten/erzeugen mit:
+# Container start
 # $ docker run -d \
 #              --name lancache-sniproxy \
 #              --net=host \
