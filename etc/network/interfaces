@@ -1,0 +1,31 @@
+# Regular host IP
+auto eth0
+    iface eth0 inet static
+    address 10.0.20.20
+    netmask 255.255.255.0
+    gateway 10.0.20.254
+
+# IP used for Steam caching
+auto eth0:1
+    iface eth0:1 inet static
+    address 10.0.20.21
+    netmask 255.255.255.0
+
+# IP used for Microsoft caching
+auto eth0:2
+    iface eth0:2 inet static
+    address 10.0.20.24
+    netmask 255.255.255.0
+
+# IP used for Origin caching
+auto eth0:3
+    iface eth0:3 inet static
+    address 10.0.20.23
+    netmask 255.255.255.0
+
+# IP used for Blizzard caching
+auto eth0:4
+    iface eth0:4 inet static
+    address 10.0.20.22
+    netmask 255.255.255.0
+
