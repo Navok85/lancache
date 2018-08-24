@@ -1,11 +1,11 @@
 #################################################
-# Image erzeugen mit:
+# Create docker image:
 # $ docker build -t lancache/unbound .
 #
-# Config unbound.conf nach /srv/unbound kopieren
+# Copy unbound.conf to /srv/unbound
 # $ mkdir -p /pool1/unbound
 #
-# Container starten/erzeugen mit:
+# Container start:
 # $ docker run -d \
 #              --name="lancache-unbound" \
 #              --net=host \
