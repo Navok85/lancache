@@ -8,7 +8,7 @@ Monitoring:
 * iftop -i enp3s0f0
 * nload -U G - u M -i 102400 -o 102400
 
-File Limit prüfen mit: 	ulimit -n
+Check file limit with: 	ulimit -n
 
 tmux: 
  - strg+b / " für horizontal splitten
