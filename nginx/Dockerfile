@@ -1,12 +1,12 @@
 #################################################
 #
-# Image erzeugen mit:
+# Create docker image:
 # $ docker build -t lancache/nginx .
 #
-# Confis nach /pool1/nginx kopieren
+# Copy configs to /pool1/nginx
 # $ mkdir -p /pool1/nginx
 #
-# Speicherort für den Cache anlegen (hier: /pool1/lancache)
+# Create folders (eg: /pool1/lancache)
 # $ mkdir -p /pool1/lancache/data/blizzard/
 # $ mkdir -p /pool1/lancache/data/microsoft/
 # $ mkdir -p /pool1/lancache/data/steam/
@@ -17,7 +17,7 @@
 # $ mkdir -p /pool1/lancache/logs/Keys
 # $ mkdir -p /pool1/lancache/logs/Access
 #
-# Container starten/erzeugen mit:
+# Container start/create:
 # $ docker run -d \
 #              --name=lancache-nginx 
 #              -v /pool1/lancache:/srv/lancache 
