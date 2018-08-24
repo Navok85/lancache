@@ -1,8 +1,7 @@
-LANCACHE in Docker (geforkt von https://github.com/bntjah/lancache)
+LANCACHE in Docker (fork from https://github.com/bntjah/lancache)
  - nginx
  - unbound (DNS)
  - sniproxy
-
 
 Monitoring:
 * watch -n 30 du -sch /pool1/lancache/
@@ -12,5 +11,5 @@ Monitoring:
 File Limit prüfen mit: 	ulimit -n
 
 tmux: 
-    strg+b / " für horizontal splitten
-    strg+b / % für vertikal splitten
+ - strg+b / " für horizontal splitten
+ - strg+b / % für vertikal splitten
